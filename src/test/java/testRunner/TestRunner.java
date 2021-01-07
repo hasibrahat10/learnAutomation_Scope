@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
     @RunWith(Cucumber.class)
     @CucumberOptions
-            (features = "F://thisheart/",
+            (features = "F://thisheart",
                     glue = "stepDefinitions")
 
     public class TestRunner {
