@@ -15,12 +15,30 @@ public class HomePage {
     @FindBy(xpath = "//a[contains(text(), 'Sign in')]")
     WebElement signIn;
 
+    @FindBy(xpath = "//a[contains(text(),'Women' )]")
+    WebElement wmnBtn;
+
+    @FindBy(xpath = "//a[contains(text(),'Dresses')]")
+    WebElement dressBtn;
+
+    @FindBy(xpath = "//a[contains(text(),'T-shirts')]")
+    WebElement tshirtBtn;
 
     public void clickOnSignInButton(){
 
         signIn.click();
     }
 
+     public void  clickOnWomenBtn(){
+        wmnBtn.click();
+     }
 
+    public void  clickOnDressBtn(){
+        dressBtn.click();
+    }
+
+    public void  clickOnTshirtsBtn(){
+        tshirtBtn.click();
+    }
 
 }
