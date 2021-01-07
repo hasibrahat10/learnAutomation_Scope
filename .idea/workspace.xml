@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b0fe7c4-7300-471d-ae23-16af6d6ce8a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Features/Home.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageObject/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageObject/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NopEcommerceDataDrivenTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -52,7 +51,7 @@
       <recent name="F:\thisheart\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Homepage different items click on check">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/Login.feature" />
@@ -89,8 +88,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="thisheart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Feature: Login" />
       </list>
     </recent_temporary>
@@ -121,29 +136,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="714" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610019231939" />
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1610019581326">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom" timestamp="1610021140158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610019581326" />
-    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1610019581326">
+    <state width="1323" height="242" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610021140158" />
+    <state width="1323" height="242" key="GridCell.Tab.0.center" timestamp="1610021140158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610019581326" />
-    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1610019581326">
+    <state width="1323" height="242" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610021140158" />
+    <state width="1323" height="242" key="GridCell.Tab.0.left" timestamp="1610021140158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610019581326" />
-    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1610019581326">
+    <state width="1323" height="242" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610021140158" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right" timestamp="1610021140158">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610019581326" />
+    <state width="1323" height="242" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610021140158" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610017213066">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610017213066" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/thisheart$Scenario__Homepage_different_items_click_on_check.ic" NAME="Scenario: Homepage different items click on check Coverage Results" MODIFIED="1610019555927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/thisheart$Scenario__Homepage_different_items_click_on_check.ic" NAME="Scenario: Homepage different items click on check Coverage Results" MODIFIED="1610020728018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>io.cucumber.core.cli.*</FILTER>
     </SUITE>
   </component>
