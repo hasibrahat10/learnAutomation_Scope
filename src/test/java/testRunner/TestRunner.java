@@ -5,18 +5,17 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 
+@RunWith(Cucumber.class)
+@CucumberOptions(
 
-    @RunWith(Cucumber.class)
-    @CucumberOptions(
+        features = {".//Features/Home.feature"},
+        glue = "stepDefinitions",
+        monochrome = true,
+        plugin = {"pretty", "html:test-output"}
+)
 
-            features = {".//Features/Home.feature"},
-            glue = "stepDefinitions",
-            monochrome = true,
-            plugin = {"pretty", "html:test-output"}
-    )
-
-    public class TestRunner {
-    }
+public class TestRunner {
+}
 
 
 

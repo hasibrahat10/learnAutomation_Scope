@@ -1,15 +1,16 @@
 package stepDefinitions;
 
-import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
+import io.cucumber.java.en.*;
 
+import org.junit.Assert;
 
 public class HomeSteps extends BaseClass {
-    WebDriver driver;
 
-    @When("User click on Women Category")
-    public void user_click_on_Women_Category() {
-        homePage.clickOnWomenBtn();
+    @Then("Page title should be {string}")
+    public void pageTitleShouldBe(String title) {
+        String expectedTitle = "Women - My Store";
+        String siteTitle = driver.getTitle();
+        Assert.assertEquals(expectedTitle, siteTitle);
     }
 
     @When("User click on Dresses Category")
@@ -22,4 +23,9 @@ public class HomeSteps extends BaseClass {
         homePage.clickOnTshirtsBtn();
     }
 
+
+    @Given("I am on home page")
+    public void iAmOnHomePage() {
+        System.out.println("Home Page ");
+    }
 }
