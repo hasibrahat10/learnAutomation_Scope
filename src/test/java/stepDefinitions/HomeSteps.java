@@ -8,9 +8,20 @@ public class HomeSteps extends BaseClass {
 
     @Then("Page title should be {string}")
     public void pageTitleShouldBe(String title) {
-        String expectedTitle = "Women - My Store";
-        String siteTitle = driver.getTitle();
-        Assert.assertEquals(expectedTitle, siteTitle);
+//        String expectedTitle = "Women - My Store";
+//        String siteTitle = driver.getTitle();
+//        Assert.assertEquals(expectedTitle, siteTitle);
+        if(driver.getPageSource().contains("Women - My Store")){
+            driver.close();
+            Assert.assertTrue(false);
+        }else {
+            Assert.assertEquals(title, driver.getTitle());
+        }
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     @When("User click on Dresses Category")
@@ -27,5 +38,10 @@ public class HomeSteps extends BaseClass {
     @Given("I am on home page")
     public void iAmOnHomePage() {
         System.out.println("Home Page ");
+    }
+
+    @Then("Page title should be <title>")
+    public void pageTitleShouldBeTitle() {
+
     }
 }

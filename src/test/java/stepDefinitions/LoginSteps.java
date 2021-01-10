@@ -29,13 +29,13 @@ public class LoginSteps extends BaseClass {
 
     @When("User enter Email as {string} and Password as {string}")
     public void user_enter_Email_as_and_Password_as(String uname, String password) {
-        new LoginPage().setUserName(uname);
-        new LoginPage().setPassword(password);
+         loginPage.setUserName(uname);
+         loginPage.setPassword(password);
     }
 
     @When("Click on Login")
     public void click_on_Login() throws InterruptedException {
-        new LoginPage().clickSignIn();
+        loginPage.clickSignIn();
         Thread.sleep(300);
     }
 

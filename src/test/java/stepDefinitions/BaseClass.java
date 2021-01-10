@@ -24,8 +24,8 @@ public class BaseClass {
         driver = new ChromeDriver(); //launch chrome browser
     }
 
-    public void stopDriver(){
-        if(driver!=null) {
+    public void stopDriver() {
+        if (driver != null) {
             driver.quit();
         }
     }

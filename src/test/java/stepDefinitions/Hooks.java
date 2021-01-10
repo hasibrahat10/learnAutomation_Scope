@@ -16,6 +16,6 @@ public class Hooks extends BaseClass {
 
     @After
     public void tearDown() {
-       stopDriver();
+        stopDriver();
     }
 }
