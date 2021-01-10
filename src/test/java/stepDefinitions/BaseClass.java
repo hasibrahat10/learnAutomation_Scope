@@ -25,7 +25,8 @@ public class BaseClass {
     }
 
     public void stopDriver(){
-        if(driver!=null)
+        if(driver!=null) {
             driver.quit();
+        }
     }
 }
