@@ -14,7 +14,7 @@ Feature: Home
     Then Page title should be <title>
     Examples:
       | title              |
-      | "Women - My Store" |
+      | "Dresses - My Store" |
 
   Scenario Outline: Homepage TShirts items click on check
     Given I am on home page
@@ -22,4 +22,4 @@ Feature: Home
     Then Page title should be <title>
     Examples:
       | title              |
-      | "Women - My Store" |
+      | "T-shirts - My Store" |

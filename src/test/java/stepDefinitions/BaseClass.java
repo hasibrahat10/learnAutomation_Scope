@@ -13,8 +13,6 @@ import java.util.logging.Logger;
 
 public class BaseClass {
     public static WebDriver driver;
-    public LoginPage loginPage;
-    public HomePage homePage;
 
     public void startDriver() {
         System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY, System.getProperty("user.dir") + "/Drivers/chromedriver_win32/chromedriver.exe");

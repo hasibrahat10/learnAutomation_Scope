@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b0fe7c4-7300-471d-ae23-16af6d6ce8a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Features/Home.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Home.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/Features/Login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefinitions/HomeSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/stepDefinitions/HomeSteps.class" afterDir="false" />
@@ -51,7 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webAutoSelenium" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -62,7 +60,7 @@
       <recent name="F:\thisheart\Drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Homepage Dresses items click on check">
+  <component name="RunManager" selected="Cucumber java.Feature: Home">
     <configuration name="Feature: Home" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/Features/Home.feature" />
@@ -174,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: Home" />
         <item itemvalue="Cucumber java.Scenario: Homepage Dresses items click on check" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber java.Scenario: Homepage Women items click on check" />
         <item itemvalue="Cucumber java.Scenario: asdjklfhaskjdfasd" />
-        <item itemvalue="Cucumber java.Feature: Home" />
       </list>
     </recent_temporary>
   </component>
@@ -211,37 +209,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1610089205315" />
-    <state x="618" y="341" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1610279634344">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="550" y="266" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1610347501040">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="550" y="266" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1610347501040" />
     <state x="618" y="341" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.40.1536.824@0.40.1536.824" timestamp="1610279634344" />
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1610435072075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="100" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1610435072075" />
     <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1610093543363">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1610093543363" />
-    <state x="714" y="148" key="FileChooserDialogImpl" timestamp="1610019231939">
+    <state x="714" y="148" key="FileChooserDialogImpl" timestamp="1610448608064">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="714" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610019231939" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1610283527837">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state x="714" y="148" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1610448608064" />
+    <state width="1323" height="285" key="GridCell.Tab.0.bottom" timestamp="1610375400233">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610094700430" />
+    <state width="1323" height="285" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610375400233" />
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.40.1536.824@0.40.1536.824" timestamp="1610283527837" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1610283527837">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1323" height="285" key="GridCell.Tab.0.center" timestamp="1610375400233">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610094700430" />
+    <state width="1323" height="285" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610375400233" />
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.40.1536.824@0.40.1536.824" timestamp="1610283527837" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1610283527837">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1323" height="285" key="GridCell.Tab.0.left" timestamp="1610375400233">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610094700430" />
+    <state width="1323" height="285" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610375400233" />
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.40.1536.824@0.40.1536.824" timestamp="1610283527837" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1610283527837">
-      <screen x="0" y="40" width="1536" height="824" />
+    <state width="1323" height="285" key="GridCell.Tab.0.right" timestamp="1610375400233">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="202" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610094700430" />
+    <state width="1323" height="285" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610375400233" />
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.40.1536.824@0.40.1536.824" timestamp="1610283527837" />
     <state x="277" y="95" key="SettingsEditor" timestamp="1610280609108">
       <screen x="0" y="40" width="1536" height="824" />
@@ -252,6 +255,10 @@
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1610017213066" />
     <state x="553" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1536.824@0.40.1536.824" timestamp="1610281339398" />
+    <state x="65" y="59" key="new project wizard" timestamp="1610360441782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="59" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1610360441782" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thisheart$Scenario__Homepage_different_items_click_on_check.ic" NAME="Scenario: Homepage different items click on check Coverage Results" MODIFIED="1610020728018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
